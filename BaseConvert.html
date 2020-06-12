@@ -1,0 +1,70 @@
+<!DOCTYPE>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Base/Radix Converter | Util Tools</title>
+
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="	sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<!-- /BOOTSTRAP -->
+
+		<link rel="stylesheet" type="text/css" href="./BaseConvert.css">
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+
+		<script type="text/javascript" src="./BaseConvertModule.js"></script>
+		<script type="text/javascript" src="./BaseConvertController.js"></script>
+
+	</head>
+	
+		<body ng-app="baseconvert">
+			<div class="navbar">
+				<a href="Home.html">Home</a>
+				<a href="CaseConvert.html">Font Case Converter</a>
+				<a href="BaseConvert.html">Base/Radix Converter</a>
+				<a href="ExpressionSolver.html">Expression Solver</a>
+				<a href="Contacts.html">Contact Us</a>
+			</div>
+
+			<h1>Base / Radix Converter</h1>
+			<div class="steps">	
+				<h3>
+					Convert a value from one base/radix to another in 3 simple steps :- <br>
+					<ol>
+						<li>Set input base value i.e, base of input number system .</li>
+						<li>Set output base value i.e, base of desired output number system .</li>
+						<li>Enter the input value to get the result .</li>
+					</ol>
+				</h3>
+				<p style="color:red;font-size:20px;font-weight:bold">NOTE : Currently the converter has no support for floating values but we are trying and will soon add that feature .</p>
+			</div>
+
+			<div class="container" ng-controller='basechangectrl'>
+				<div class='row'>
+	  				<div id="input" class='col-6 mx-auto'>
+						<p>
+							<u>INPUT</u> :<br>
+							BASE : <input class="radix" type="number" min="2" max="36" ng-model="inbase"> <br>
+							VALUE : <input style="width:80%" type="text" ng-model="input"> <br>
+						</p>
+					</div>
+					<div id="output" class='col 6 mx-auto'>
+						<p>
+							<u>OUTPUT</u> :<br>
+							BASE : <input class="radix" type="number" min="2" max="36" ng-model="outbase"> <br>
+							VALUE : <h3 style="width:90%; color:{{color}}">{{convertBase()}}</h3>
+						</p>
+					</div>
+			</div>
+			
+			<div class="footer">
+				<p><em>gust</em> Copyright 2021</p>
+			</div>
+		</body>
+</html>

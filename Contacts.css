@@ -1,0 +1,64 @@
+body{
+	background-image: url('./coding-3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.navbar{
+	width: 100%;
+	/*background-color: #121F32;*/
+	overflow: auto;
+	/*padding: 0;*/
+}
+
+.navbar a{
+	float: left;
+	padding: 12px;
+	/*margin: 0;*/
+	/*padding: 0;*/
+	color: #D8E4FC;
+	text-decoration: none;
+	font-size: 18px;
+	width:19.99%; 
+	font-weight: bold;
+	background-color: #121F32;
+}
+
+.navbar a:hover{
+	color: #121F32;
+	background-color: #D8E4FC; 
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h1{
+	color: #D8E4FC;
+	text-align: center;
+	margin-top: 60px;
+	width: 100%;
+	font-size: 48px;
+	font-weight: bolder;
+	text-shadow: 3px 3px gray;
+}
+
+h4{
+	text-align: center;
+	margin: 40px;
+	margin-top: 60px;
+	color: lightgrey;
+	font-weight: bolder;
+	font-size: 30px;
+	text-shadow:  0 0 8px yellow, 0 0 6px red;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	color: #D8E4FC;
+	background-color: #121F32;
+	font-weight: 600;
+}
