@@ -1,0 +1,84 @@
+body{
+	background-color: lightyellow;
+	border: 16px solid #FFD700;
+}
+
+h1{
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 2px 2px red;
+	padding-bottom: 25px;
+}
+
+.container{
+	border: 2px solid darkorange;
+	background-color:rgb(255,207,80);
+	padding: 10px;
+}
+
+p{
+	font-weight: bold;
+}
+
+p input{
+	margin-top: 10px;
+	width: 30%;
+	background-color: lightyellow;
+}
+
+li{
+	font-weight: bold;
+}
+
+em{
+	color: darkcyan;
+}
+
+a i:hover{
+	color: green;
+}
+
+i{
+	font-weight: bolder;
+}
+
+.navbar{
+	width: 100%;
+	/*background-color: #121F32;*/
+	overflow: auto;
+	/*padding: 0;*/
+}
+
+.navbar a{
+	float: left;
+	padding: 12px;
+	/*margin: 0;*/
+	/*padding: 0;*/
+	color: brown;
+	text-decoration: none;
+	margin-top:0.3%;
+	font-size: 20px;
+	font-weight: bold;
+	width:33.33%; 
+	background-color: orange;
+}
+
+.navbar a:hover{
+	color: darkcyan;
+	background-color: yellow; 
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+	color: darkgreen;
+	background-color: tomato;
+	font-weight: 800;
+}
