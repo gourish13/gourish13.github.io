@@ -2,22 +2,27 @@
     "about_me": {
         "name": "Gourish Sadhu",
         "dob": "1999/12/23",
-        "description": ""
+        "description": [
+            "I am a guy who enjoys techy stuffs, specially when it comes to the software side.",
+            "Loves to code and has a keen interest in trying out various frameworks/libraries or programming languages",
+            "A linux enthusiast, daily driving linux since 2019.",
+            "Likes trying out and exploring various open source small programs/softwares as a hobby."
+        ]
     },
 
     "contact": {
         "email": "sadhu2gourish@gmail.com",
         "phn": "+91 9800778545",
-        "address": "",
-        "github": "",
-        "linkedin": ""
+        "address": null,
+        "github": "https://github.com/gourish13",
+        "linkedin": "https://www.linkedin.com/in/gourish-sadhu-570a861a0/"
     },
 
     "education": [
         {
             "name": "Asansol Engineering College, Asansol",
             "course": "BTech. Information Technology",
-            "duration": "2018-2022"
+            "duration": "2018 - 2022"
         },
         {
             "name": "St. Patrick's Higher Secondary School, Asansol",
